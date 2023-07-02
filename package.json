@@ -2,13 +2,18 @@
   "name": "ridiproject",
   "version": "1.0.0",
   "main": "server.js",
+  "engine": {
+    "node": "16.15.0",
+    "npm": "8.5.5"
+  },
   "scripts": {
     "start": "node server.js",
     "sass": "sass scss:public/css",
     "watch": "npm run sass -- --watch",
     "build": "run-p server",
     "server": "run-p watch dev",
-    "dev": "nodemon server"
+    "dev": "nodemon server",
+    "heroku-postbuild": "npm run build"
   },
   "keywords": [],
   "author": "",
