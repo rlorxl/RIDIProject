@@ -8,9 +8,6 @@
   },
   "scripts": {
     "start": "node server.js",
-    "build": "run-p server",
-    "server": "run-p dev",
-    "dev": "nodemon server",
     "heroku-postbuild": "npm run build"
   },
   "keywords": [],
