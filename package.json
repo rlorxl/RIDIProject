@@ -8,9 +8,6 @@
   },
   "scripts": {
     "start": "node server.js",
-    "sass": "sass scss:public/css",
-    "watch": "npm run sass -- --watch",
-    "build": "run-p server",
     "server": "run-p watch dev",
     "dev": "nodemon server",
     "heroku-postbuild": "npm run build"
