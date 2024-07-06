@@ -2,8 +2,6 @@
 
 ## :book: 프로젝트 소개
 
-- 배포 : https://cotakutoon.herokuapp.com/
-
 |         | 미성년자 |  성인  |
 | :-----: | :------: | :----: |
 | Test ID |   kids   | adult  |
